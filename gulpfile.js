@@ -7,7 +7,7 @@ var gutil = require('gulp-util')
 var dev = gutil.env.env !== 'prod'
 
 gulp.task('build', function () {
-  return browserify({entries: './app/components/App.jsx', extensions: ['.jsx'], debug: dev})
+  return browserify({entries: './app/components/', extensions: ['.jsx'], debug: dev})
     .transform('babelify', {presets: ['es2015', 'react']})
     .bundle()
     .pipe(source('bundle.js'))
