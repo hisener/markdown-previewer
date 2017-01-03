@@ -24,7 +24,7 @@ class MarkdownPreviewer extends React.Component {
     return (
       <div className='row'>
         <div className='col-md-6'>
-          <textarea className='form-control' rows={20} onChange={this.handleTextareaChange} value={this.state.text} />
+          <textarea className='form-control' rows={25} onChange={this.handleTextareaChange} value={this.state.text} />
         </div>
         <div className='col-md-6'>
           <div dangerouslySetInnerHTML={{ __html: marked(this.state.text) }} />
