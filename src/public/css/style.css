@@ -22,7 +22,6 @@ footer {
 
 textarea.form-control {
   font-family: monospace;
-  font-size: 12px;
-  height: 100%;
-  resize: none;
+  font-size: 13px;
+  resize: vertical;
 }

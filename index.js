@@ -1,7 +1,7 @@
 var http = require('http')
 var express = require('express')
 
-var routes = require(process.cwd() + '/app/routes')
+var routes = require(process.cwd() + '/src/routes')
 
 var app = express()
 var dev = app.get('env') !== 'prod'
@@ -9,9 +9,9 @@ var port = process.env.PORT || 3000
 
 // Set the view engine
 app.set('view engine', 'pug')
-app.set('views', process.cwd() + '/app/views')
+app.set('views', process.cwd() + '/src/views')
 
-app.use(express.static(process.cwd() + '/app/public'))
+app.use(express.static(process.cwd() + '/src/public'))
 app.use('/', routes)
 
 // catch 404 and forward to error handler

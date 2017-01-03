@@ -4,8 +4,8 @@
   "description": "GitHub flavored markdown previewer with ReactJS",
   "main": "index.js",
   "scripts": {
-    "start": "gulp --env=prod build && node index.js",
-    "dev": "gulp --env=dev watch & npm start",
+    "dev": "gulp --env=dev watch & NODE_ENV=dev node index.js",
+    "start": "gulp --env=prod build && NODE_ENV=prod node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -38,5 +38,9 @@
     "pug": "^2.0.0-beta6",
     "react": "^15.4.1",
     "react-dom": "^15.4.1"
+  },
+  "engines": {
+    "node": "^6.9.2",
+    "npm": "^4.0.5"
   }
 }
