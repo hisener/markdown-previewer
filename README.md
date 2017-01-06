@@ -1,10 +1,10 @@
-# Markdown Previewer
+# Markdown Previewer [![Build Status](https://travis-ci.org/hisener/markdown-previewer.svg?branch=master)](https://travis-ci.org/hisener/markdown-previewer)
 GitHub flavored markdown previewer with ReactJS
 
 React Project #1 - FreeCodeCamp
 
-[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![Code Climate](https://codeclimate.com/github/hisener/markdown-previewer/badges/gpa.svg)](https://codeclimate.com/github/hisener/markdown-previewer)
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 ### Install and start
 ```bash
