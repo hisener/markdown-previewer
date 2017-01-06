@@ -20,4 +20,4 @@ localhost:3000
 ```
 
 ### Demo
-TODO: Deploy on heroku and insert the link
+https://hisener-markdown-previewer.herokuapp.com/
