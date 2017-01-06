@@ -3,6 +3,7 @@ GitHub flavored markdown previewer with ReactJS
 
 React Project #1 - FreeCodeCamp
 
+[![codecov](https://codecov.io/gh/hisener/markdown-previewer/branch/master/graph/badge.svg)](https://codecov.io/gh/hisener/markdown-previewer)
 [![Code Climate](https://codeclimate.com/github/hisener/markdown-previewer/badges/gpa.svg)](https://codeclimate.com/github/hisener/markdown-previewer)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
