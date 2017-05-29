@@ -1,4 +1,6 @@
 # Markdown Previewer [![Build Status](https://travis-ci.org/hisener/markdown-previewer.svg?branch=master)](https://travis-ci.org/hisener/markdown-previewer)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/hisener/markdown-previewer.svg)](https://greenkeeper.io/)
 GitHub flavored markdown previewer with ReactJS
 
 React Project #1 - FreeCodeCamp
